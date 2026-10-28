@@ -1,0 +1,70 @@
+#-----------------------------------------------------------
+# Vivado v2025.2 (64-bit)
+# SW Build 6299465 on Fri Nov 14 19:35:11 GMT 2025
+# IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
+# SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
+# Start of session at: Tue Oct 27 12:12:52 2026
+# Process ID         : 7972
+# Current directory  : C:/Users/Anuj/Vlsi/Vivado_Work/CODE_CONV
+# Command line       : vivado.exe -gui_launcher_event rodinguilauncherevent10136 C:\Users\Anuj\Vlsi\Vivado_Work\CODE_CONV\CODE_CONV.xpr
+# Log file           : C:/Users/Anuj/Vlsi/Vivado_Work/CODE_CONV/vivado.log
+# Journal file       : C:/Users/Anuj/Vlsi/Vivado_Work/CODE_CONV\vivado.jou
+# Running On         : LAPTOP-L2S8QUQT
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 26300
+# Processor Detail   : Intel(R) Core(TM) Ultra 5 322
+# CPU Frequency      : 3494 MHz
+# CPU Physical cores : 6
+# CPU Logical cores  : 6
+# Host memory        : 16760 MB
+# Swap memory        : 3087 MB
+# Total Virtual      : 19847 MB
+# Available Virtual  : 1575 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Anuj/Vlsi/Vivado_Work/CODE_CONV/CODE_CONV.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+launch_simulation
+set_property top Bit_8 [current_fileset]
+set_property top Bit_8 [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+update_compile_order -fileset sources_1
+launch_simulation
+launch_simulation
+source Bit_8.tcl
+close_sim
+close_project
+open_project C:/Users/Anuj/Vlsi/Vivado_Work/AXI4_LiteBurst/vivado_project/AXI_LiteBurst32.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+source tb_axi_liteburst32_top.tcl
+add_force {/tb_axi_liteburst32_top/clk} -radix hex {0 0ns}
+add_force {/tb_axi_liteburst32_top/resetn} -radix hex {0 0ns}
+add_force {/tb_axi_liteburst32_top/s_awaddr} -radix hex {0 0ns} {0 50000ps} -repeat_every 100000ps
+add_force {/tb_axi_liteburst32_top/s_awaddr} -radix hex {00 0ns} {00 50000ps} -repeat_every 100000ps
+add_force {/tb_axi_liteburst32_top/s_awaddr} -radix hex {00 0ns} {00000000 50000ps} -repeat_every 100000ps
+add_force {/tb_axi_liteburst32_top/s_awaddr} -radix hex {00 0ns} {00000001 50000ps} -repeat_every 100000ps
+add_force {/tb_axi_liteburst32_top/s_awaddr} -radix hex {00 0ns}
+add_force {/tb_axi_liteburst32_top/s_awvalid} -radix hex {0 0ns}
+add_force {/tb_axi_liteburst32_top/s_wdata} -radix hex {00 0ns}
+add_force {/tb_axi_liteburst32_top/s_wstrb} -radix hex {1111 0ns}
+add_force {/tb_axi_liteburst32_top/s_wstrb} -radix hex {11 0ns}
+add_force {/tb_axi_liteburst32_top/s_wstrb} -radix hex {1111 0ns}
+add_force {/tb_axi_liteburst32_top/s_wstrb} -radix bin {1111 0ns}
+add_force {/tb_axi_liteburst32_top/s_wdata} -radix hex {000000000 0ns}
+add_force {/tb_axi_liteburst32_top/s_wvalid} -radix hex {0 0ns}
+add_force {/tb_axi_liteburst32_top/s_bready} -radix hex {0 0ns}
+add_force {/tb_axi_liteburst32_top/s_araddr} -radix hex {00 0ns}
+add_force {/tb_axi_liteburst32_top/s_arvalid} -radix hex {0 0ns}
+add_force {/tb_axi_liteburst32_top/s_rready} -radix hex {0 0ns}
+add_force {/tb_axi_liteburst32_top/low_power_enable} -radix hex {1 0ns}
+add_force {/tb_axi_liteburst32_top/idle_threshold} -radix hex {00000101 0ns}
+add_force {/tb_axi_liteburst32_top/idle_threshold} -radix bin {00000101 0ns}
+run 10 us
+add_force {/tb_axi_liteburst32_top/resetn} -radix hex {0 0ns}
+close_sim
+launch_simulation
+launch_simulation
+source tb_axi_liteburst32_top.tcl
+close_sim

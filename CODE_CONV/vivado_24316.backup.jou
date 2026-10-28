@@ -1,0 +1,26 @@
+#-----------------------------------------------------------
+# Vivado v2025.2 (64-bit)
+# SW Build 6299465 on Fri Nov 14 19:35:11 GMT 2025
+# IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
+# SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
+# Start of session at: Thu Oct 22 00:44:37 2026
+# Process ID         : 24316
+# Current directory  : C:/Users/Anuj/Vlsi/Vivado_Work/CODE_CONV
+# Command line       : vivado.exe -gui_launcher_event rodinguilauncherevent7844 C:\Users\Anuj\Vlsi\Vivado_Work\CODE_CONV\CODE_CONV.xpr
+# Log file           : C:/Users/Anuj/Vlsi/Vivado_Work/CODE_CONV/vivado.log
+# Journal file       : C:/Users/Anuj/Vlsi/Vivado_Work/CODE_CONV\vivado.jou
+# Running On         : LAPTOP-L2S8QUQT
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 26300
+# Processor Detail   : Intel(R) Core(TM) Ultra 5 322
+# CPU Frequency      : 3494 MHz
+# CPU Physical cores : 6
+# CPU Logical cores  : 6
+# Host memory        : 16760 MB
+# Swap memory        : 3087 MB
+# Total Virtual      : 19847 MB
+# Available Virtual  : 5186 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Anuj/Vlsi/Vivado_Work/CODE_CONV/CODE_CONV.xpr
+update_compile_order -fileset sources_1

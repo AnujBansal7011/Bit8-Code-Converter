@@ -94,6 +94,6 @@ It also gave me hands-on experience in debugging conversion logic and verifying 
 
 **Anuj Bansal**
 
-VLSI | RTL Design | FPGA Enthusiast
+VLSI | RTL Design | VLSI Enthusiast
 
 [GitHub Profile](https://github.com/AnujBansal7011)
